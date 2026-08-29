@@ -30,6 +30,7 @@ FA_Gate FA0 (
     .sum(sum[0]),
     .cout(c1)
   );
+  
 
   FA_Gate FA1 (
     .a(a[1]),
