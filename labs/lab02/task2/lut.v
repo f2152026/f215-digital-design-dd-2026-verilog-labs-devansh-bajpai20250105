@@ -10,6 +10,7 @@ module lut #(
 ) (
   input      [$clog2(DEPTH)-1:0] sel,
   output reg [WIDTH-1:0]         dout
+  
 );
 
   reg [WIDTH-1:0] mem [0:DEPTH-1];
